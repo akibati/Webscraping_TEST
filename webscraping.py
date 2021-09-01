@@ -22,7 +22,7 @@ class Scraper:
             #print(title)
             news.append(title)
         
-        st = open(os.path.join("C:\\","Users","a.chiba","Desktop","googlescraping.txt"), "w", encoding="utf-8")
+        st = open(os.path.join("googlescraping.txt"), "w", encoding="utf-8")
         st.write("\n".join(news))
         st.close()
 
